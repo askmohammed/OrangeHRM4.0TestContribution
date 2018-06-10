@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="37" passed="37">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="236150" started-at="2018-06-05T03:36:54Z" finished-at="2018-06-05T03:40:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="236150" started-at="2018-06-05T03:36:54Z" finished-at="2018-06-05T03:40:50Z">
+      <class name="com.orangehrm.UserManagement">
+        <test-method status="PASS" signature="Openbrowser()[pri:0, instance:com.orangehrm.UserManagement@18a00e3]" name="Openbrowser" is-config="true" duration-ms="6753" started-at="2018-06-05T09:06:47Z" finished-at="2018-06-05T09:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method status="PASS" signature="Loginbrowser()[pri:0, instance:com.orangehrm.UserManagement@18a00e3]" name="Loginbrowser" is-config="true" duration-ms="3274" started-at="2018-06-05T09:06:54Z" finished-at="2018-06-05T09:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginbrowser -->
+        <test-method status="PASS" signature="Addemployee()[pri:1, instance:com.orangehrm.UserManagement@18a00e3]" name="Addemployee" duration-ms="6805" started-at="2018-06-05T09:06:57Z" finished-at="2018-06-05T09:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addemployee -->
+        <test-method status="PASS" signature="AddUser()[pri:2, instance:com.orangehrm.UserManagement@18a00e3]" name="AddUser" duration-ms="5390" started-at="2018-06-05T09:07:04Z" finished-at="2018-06-05T09:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUser -->
+        <test-method status="PASS" signature="CancelUser()[pri:3, instance:com.orangehrm.UserManagement@18a00e3]" name="CancelUser" duration-ms="6519" started-at="2018-06-05T09:07:10Z" finished-at="2018-06-05T09:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelUser -->
+        <test-method status="PASS" signature="EmpLogin()[pri:4, instance:com.orangehrm.UserManagement@18a00e3]" name="EmpLogin" duration-ms="10919" started-at="2018-06-05T09:07:16Z" finished-at="2018-06-05T09:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmpLogin -->
+        <test-method status="PASS" signature="SearchEmployee()[pri:5, instance:com.orangehrm.UserManagement@18a00e3]" name="SearchEmployee" duration-ms="1355" started-at="2018-06-05T09:07:27Z" finished-at="2018-06-05T09:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchEmployee -->
+        <test-method status="PASS" signature="ResetSearch()[pri:6, instance:com.orangehrm.UserManagement@18a00e3]" name="ResetSearch" duration-ms="895" started-at="2018-06-05T09:07:28Z" finished-at="2018-06-05T09:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetSearch -->
+        <test-method status="PASS" signature="DeleteEmpLogin()[pri:7, instance:com.orangehrm.UserManagement@18a00e3]" name="DeleteEmpLogin" duration-ms="5435" started-at="2018-06-05T09:07:29Z" finished-at="2018-06-05T09:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmpLogin -->
+        <test-method status="PASS" signature="DeleteEmpList()[pri:8, instance:com.orangehrm.UserManagement@18a00e3]" name="DeleteEmpList" duration-ms="8489" started-at="2018-06-05T09:07:35Z" finished-at="2018-06-05T09:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmpList -->
+        <test-method status="PASS" signature="Logoutbrowser()[pri:0, instance:com.orangehrm.UserManagement@18a00e3]" name="Logoutbrowser" is-config="true" duration-ms="1441" started-at="2018-06-05T09:10:49Z" finished-at="2018-06-05T09:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logoutbrowser -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.orangehrm.UserManagement@18a00e3]" name="Closebrowser" is-config="true" duration-ms="354" started-at="2018-06-05T09:10:50Z" finished-at="2018-06-05T09:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- com.orangehrm.UserManagement -->
+      <class name="com.orangehrm.Requirment">
+        <test-method status="PASS" signature="addcandidates()[pri:0, instance:com.orangehrm.Requirment@1375618]" name="addcandidates" duration-ms="15237" started-at="2018-06-05T09:09:40Z" finished-at="2018-06-05T09:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcandidates -->
+        <test-method status="PASS" signature="viewcandidates()[pri:1, instance:com.orangehrm.Requirment@1375618]" name="viewcandidates" duration-ms="3517" started-at="2018-06-05T09:09:56Z" finished-at="2018-06-05T09:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewcandidates -->
+        <test-method status="PASS" signature="deletecandidates()[pri:4, instance:com.orangehrm.Requirment@1375618]" name="deletecandidates" duration-ms="3842" started-at="2018-06-05T09:09:59Z" finished-at="2018-06-05T09:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecandidates -->
+      </class> <!-- com.orangehrm.Requirment -->
+      <class name="com.orangehrm.LeaveEntitles">
+        <test-method status="PASS" signature="AddEmployee()[pri:1, instance:com.orangehrm.LeaveEntitles@178f375]" name="AddEmployee" duration-ms="6255" started-at="2018-06-05T09:08:29Z" finished-at="2018-06-05T09:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method status="PASS" signature="AddLeaveType()[pri:2, instance:com.orangehrm.LeaveEntitles@178f375]" name="AddLeaveType" duration-ms="6321" started-at="2018-06-05T09:08:35Z" finished-at="2018-06-05T09:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLeaveType -->
+        <test-method status="PASS" signature="AddLeaveEntitle()[pri:3, instance:com.orangehrm.LeaveEntitles@178f375]" name="AddLeaveEntitle" duration-ms="2953" started-at="2018-06-05T09:08:42Z" finished-at="2018-06-05T09:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLeaveEntitle -->
+        <test-method status="PASS" signature="AddLeaveEntitlewithoutchckbox()[pri:4, instance:com.orangehrm.LeaveEntitles@178f375]" name="AddLeaveEntitlewithoutchckbox" duration-ms="10840" started-at="2018-06-05T09:08:45Z" finished-at="2018-06-05T09:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLeaveEntitlewithoutchckbox -->
+        <test-method status="PASS" signature="SearchLeave()[pri:5, instance:com.orangehrm.LeaveEntitles@178f375]" name="SearchLeave" duration-ms="10568" started-at="2018-06-05T09:08:55Z" finished-at="2018-06-05T09:09:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchLeave -->
+        <test-method status="PASS" signature="DeleteEmpList()[pri:6, instance:com.orangehrm.LeaveEntitles@178f375]" name="DeleteEmpList" duration-ms="5344" started-at="2018-06-05T09:09:06Z" finished-at="2018-06-05T09:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmpList -->
+      </class> <!-- com.orangehrm.LeaveEntitles -->
+      <class name="com.orangehrm.JobTitles">
+        <test-method status="PASS" signature="addjobtitle()[pri:1, instance:com.orangehrm.JobTitles@8b7f67]" name="addjobtitle" duration-ms="6364" started-at="2018-06-05T09:07:43Z" finished-at="2018-06-05T09:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addjobtitle -->
+        <test-method status="PASS" signature="addjobtitlecancel()[pri:2, instance:com.orangehrm.JobTitles@8b7f67]" name="addjobtitlecancel" duration-ms="2084" started-at="2018-06-05T09:07:50Z" finished-at="2018-06-05T09:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addjobtitlecancel -->
+        <test-method status="PASS" signature="editjobtitle()[pri:3, instance:com.orangehrm.JobTitles@8b7f67]" name="editjobtitle" duration-ms="3383" started-at="2018-06-05T09:07:52Z" finished-at="2018-06-05T09:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editjobtitle -->
+        <test-method status="PASS" signature="jobdelete()[pri:4, instance:com.orangehrm.JobTitles@8b7f67]" name="jobdelete" duration-ms="2065" started-at="2018-06-05T09:07:55Z" finished-at="2018-06-05T09:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobdelete -->
+      </class> <!-- com.orangehrm.JobTitles -->
+      <class name="com.orangehrm.ResetPassword">
+        <test-method status="PASS" signature="addemployee()[pri:1, instance:com.orangehrm.ResetPassword@d992b2]" name="addemployee" duration-ms="7278" started-at="2018-06-05T09:10:11Z" finished-at="2018-06-05T09:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+        <test-method status="PASS" signature="AddUser()[pri:2, instance:com.orangehrm.ResetPassword@d992b2]" name="AddUser" duration-ms="4904" started-at="2018-06-05T09:10:19Z" finished-at="2018-06-05T09:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUser -->
+        <test-method status="PASS" signature="EmpResetPass()[pri:3, instance:com.orangehrm.ResetPassword@d992b2]" name="EmpResetPass" duration-ms="19736" started-at="2018-06-05T09:10:24Z" finished-at="2018-06-05T09:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmpResetPass -->
+        <test-method status="PASS" signature="DeleteEmpList()[pri:4, instance:com.orangehrm.ResetPassword@d992b2]" name="DeleteEmpList" duration-ms="5373" started-at="2018-06-05T09:10:43Z" finished-at="2018-06-05T09:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmpList -->
+      </class> <!-- com.orangehrm.ResetPassword -->
+      <class name="com.orangehrm.Performance">
+        <test-method status="PASS" signature="addperformance()[pri:0, instance:com.orangehrm.Performance@10399e]" name="addperformance" duration-ms="6201" started-at="2018-06-05T09:10:03Z" finished-at="2018-06-05T09:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addperformance -->
+        <test-method status="PASS" signature="deleteperformance()[pri:1, instance:com.orangehrm.Performance@10399e]" name="deleteperformance" duration-ms="2164" started-at="2018-06-05T09:10:09Z" finished-at="2018-06-05T09:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteperformance -->
+      </class> <!-- com.orangehrm.Performance -->
+      <class name="com.orangehrm.Time">
+        <test-method status="PASS" signature="AddEmployee()[pri:0, instance:com.orangehrm.Time@c87b21]" name="AddEmployee" duration-ms="5941" started-at="2018-06-05T09:09:11Z" finished-at="2018-06-05T09:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method status="PASS" signature="viewemprecord()[pri:1, instance:com.orangehrm.Time@c87b21]" name="viewemprecord" duration-ms="8369" started-at="2018-06-05T09:09:17Z" finished-at="2018-06-05T09:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewemprecord -->
+        <test-method status="PASS" signature="addemprecord()[pri:2, instance:com.orangehrm.Time@c87b21]" name="addemprecord" duration-ms="6702" started-at="2018-06-05T09:09:26Z" finished-at="2018-06-05T09:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemprecord -->
+        <test-method status="PASS" signature="deletetimerecord()[pri:3, instance:com.orangehrm.Time@c87b21]" name="deletetimerecord" duration-ms="2899" started-at="2018-06-05T09:09:32Z" finished-at="2018-06-05T09:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletetimerecord -->
+        <test-method status="PASS" signature="DeleteEmpList()[pri:4, instance:com.orangehrm.Time@c87b21]" name="DeleteEmpList" duration-ms="5176" started-at="2018-06-05T09:09:35Z" finished-at="2018-06-05T09:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmpList -->
+      </class> <!-- com.orangehrm.Time -->
+      <class name="com.orangehrm.EmployeesList">
+        <test-method status="PASS" signature="AddEmployee()[pri:1, instance:com.orangehrm.EmployeesList@c7a4e4]" name="AddEmployee" duration-ms="7707" started-at="2018-06-05T09:07:57Z" finished-at="2018-06-05T09:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method status="PASS" signature="SearchEmployee()[pri:2, instance:com.orangehrm.EmployeesList@c7a4e4]" name="SearchEmployee" duration-ms="7222" started-at="2018-06-05T09:08:05Z" finished-at="2018-06-05T09:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchEmployee -->
+        <test-method status="PASS" signature="ResetSearch()[pri:3, instance:com.orangehrm.EmployeesList@c7a4e4]" name="ResetSearch" duration-ms="1295" started-at="2018-06-05T09:08:12Z" finished-at="2018-06-05T09:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetSearch -->
+        <test-method status="PASS" signature="LoginEmployee()[pri:4, instance:com.orangehrm.EmployeesList@c7a4e4]" name="LoginEmployee" duration-ms="10239" started-at="2018-06-05T09:08:13Z" finished-at="2018-06-05T09:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEmployee -->
+        <test-method status="PASS" signature="DeleteEmployee()[pri:5, instance:com.orangehrm.EmployeesList@c7a4e4]" name="DeleteEmployee" duration-ms="5540" started-at="2018-06-05T09:08:24Z" finished-at="2018-06-05T09:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmployee -->
+      </class> <!-- com.orangehrm.EmployeesList -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

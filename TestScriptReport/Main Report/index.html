@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\DISK_SOFT\student zone\eclipse\workspace\OrangeHRM\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods,   37 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Time" hash-for-method="AddEmployee">AddEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.LeaveEntitles" hash-for-method="AddEmployee">AddEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.EmployeesList" hash-for-method="AddEmployee">AddEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.LeaveEntitles" hash-for-method="AddLeaveEntitle">AddLeaveEntitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.LeaveEntitles" hash-for-method="AddLeaveEntitlewithoutchckbox">AddLeaveEntitlewithoutchckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.LeaveEntitles" hash-for-method="AddLeaveType">AddLeaveType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.UserManagement" hash-for-method="AddUser">AddUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.ResetPassword" hash-for-method="AddUser">AddUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.UserManagement" hash-for-method="Addemployee">Addemployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.UserManagement" hash-for-method="CancelUser">CancelUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Time" hash-for-method="DeleteEmpList">DeleteEmpList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.ResetPassword" hash-for-method="DeleteEmpList">DeleteEmpList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.UserManagement" hash-for-method="DeleteEmpList">DeleteEmpList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.LeaveEntitles" hash-for-method="DeleteEmpList">DeleteEmpList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.UserManagement" hash-for-method="DeleteEmpLogin">DeleteEmpLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.EmployeesList" hash-for-method="DeleteEmployee">DeleteEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.UserManagement" hash-for-method="EmpLogin">EmpLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.ResetPassword" hash-for-method="EmpResetPass">EmpResetPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.EmployeesList" hash-for-method="LoginEmployee">LoginEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.EmployeesList" hash-for-method="ResetSearch">ResetSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.UserManagement" hash-for-method="ResetSearch">ResetSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.UserManagement" hash-for-method="SearchEmployee">SearchEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.EmployeesList" hash-for-method="SearchEmployee">SearchEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.LeaveEntitles" hash-for-method="SearchLeave">SearchLeave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Requirment" hash-for-method="addcandidates">addcandidates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.ResetPassword" hash-for-method="addemployee">addemployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Time" hash-for-method="addemprecord">addemprecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.JobTitles" hash-for-method="addjobtitle">addjobtitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.JobTitles" hash-for-method="addjobtitlecancel">addjobtitlecancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Performance" hash-for-method="addperformance">addperformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Requirment" hash-for-method="deletecandidates">deletecandidates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Performance" hash-for-method="deleteperformance">deleteperformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Time" hash-for-method="deletetimerecord">deletetimerecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.JobTitles" hash-for-method="editjobtitle">editjobtitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.JobTitles" hash-for-method="jobdelete">jobdelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Requirment" hash-for-method="viewcandidates">viewcandidates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.orangehrm.Time" hash-for-method="viewemprecord">viewemprecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.Requirment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addcandidates">
+                  </a> <!-- addcandidates -->
+                  <span class="method-name">addcandidates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletecandidates">
+                  </a> <!-- deletecandidates -->
+                  <span class="method-name">deletecandidates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewcandidates">
+                  </a> <!-- viewcandidates -->
+                  <span class="method-name">viewcandidates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.Performance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addperformance">
+                  </a> <!-- addperformance -->
+                  <span class="method-name">addperformance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteperformance">
+                  </a> <!-- deleteperformance -->
+                  <span class="method-name">deleteperformance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.ResetPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddUser">
+                  </a> <!-- AddUser -->
+                  <span class="method-name">AddUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteEmpList">
+                  </a> <!-- DeleteEmpList -->
+                  <span class="method-name">DeleteEmpList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmpResetPass">
+                  </a> <!-- EmpResetPass -->
+                  <span class="method-name">EmpResetPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addemployee">
+                  </a> <!-- addemployee -->
+                  <span class="method-name">addemployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.JobTitles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addjobtitle">
+                  </a> <!-- addjobtitle -->
+                  <span class="method-name">addjobtitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addjobtitlecancel">
+                  </a> <!-- addjobtitlecancel -->
+                  <span class="method-name">addjobtitlecancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editjobtitle">
+                  </a> <!-- editjobtitle -->
+                  <span class="method-name">editjobtitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobdelete">
+                  </a> <!-- jobdelete -->
+                  <span class="method-name">jobdelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.EmployeesList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddEmployee">
+                  </a> <!-- AddEmployee -->
+                  <span class="method-name">AddEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteEmployee">
+                  </a> <!-- DeleteEmployee -->
+                  <span class="method-name">DeleteEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginEmployee">
+                  </a> <!-- LoginEmployee -->
+                  <span class="method-name">LoginEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ResetSearch">
+                  </a> <!-- ResetSearch -->
+                  <span class="method-name">ResetSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchEmployee">
+                  </a> <!-- SearchEmployee -->
+                  <span class="method-name">SearchEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.UserManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddUser">
+                  </a> <!-- AddUser -->
+                  <span class="method-name">AddUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addemployee">
+                  </a> <!-- Addemployee -->
+                  <span class="method-name">Addemployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelUser">
+                  </a> <!-- CancelUser -->
+                  <span class="method-name">CancelUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteEmpList">
+                  </a> <!-- DeleteEmpList -->
+                  <span class="method-name">DeleteEmpList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteEmpLogin">
+                  </a> <!-- DeleteEmpLogin -->
+                  <span class="method-name">DeleteEmpLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmpLogin">
+                  </a> <!-- EmpLogin -->
+                  <span class="method-name">EmpLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ResetSearch">
+                  </a> <!-- ResetSearch -->
+                  <span class="method-name">ResetSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchEmployee">
+                  </a> <!-- SearchEmployee -->
+                  <span class="method-name">SearchEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.LeaveEntitles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddEmployee">
+                  </a> <!-- AddEmployee -->
+                  <span class="method-name">AddEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddLeaveEntitle">
+                  </a> <!-- AddLeaveEntitle -->
+                  <span class="method-name">AddLeaveEntitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddLeaveEntitlewithoutchckbox">
+                  </a> <!-- AddLeaveEntitlewithoutchckbox -->
+                  <span class="method-name">AddLeaveEntitlewithoutchckbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddLeaveType">
+                  </a> <!-- AddLeaveType -->
+                  <span class="method-name">AddLeaveType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteEmpList">
+                  </a> <!-- DeleteEmpList -->
+                  <span class="method-name">DeleteEmpList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchLeave">
+                  </a> <!-- SearchLeave -->
+                  <span class="method-name">SearchLeave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.Time</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddEmployee">
+                  </a> <!-- AddEmployee -->
+                  <span class="method-name">AddEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteEmpList">
+                  </a> <!-- DeleteEmpList -->
+                  <span class="method-name">DeleteEmpList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addemprecord">
+                  </a> <!-- addemprecord -->
+                  <span class="method-name">addemprecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletetimerecord">
+                  </a> <!-- deletetimerecord -->
+                  <span class="method-name">deletetimerecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewemprecord">
+                  </a> <!-- viewemprecord -->
+                  <span class="method-name">viewemprecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DISK_SOFT\student zone\eclipse\workspace\OrangeHRM\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.UserManagement&quot;/&gt;
+      &lt;class name=&quot;com.orangehrm.JobTitles&quot;/&gt;
+      &lt;class name=&quot;com.orangehrm.EmployeesList&quot;/&gt;
+      &lt;class name=&quot;com.orangehrm.LeaveEntitles&quot;/&gt;
+      &lt;class name=&quot;com.orangehrm.Time&quot;/&gt;
+      &lt;class name=&quot;com.orangehrm.Requirment&quot;/&gt;
+      &lt;class name=&quot;com.orangehrm.Performance&quot;/&gt;
+      &lt;class name=&quot;com.orangehrm.ResetPassword&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EmpResetPass')
+data.setCell(0, 2, 'com.orangehrm.ResetPassword')
+data.setCell(0, 3, 19736);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addcandidates')
+data.setCell(1, 2, 'com.orangehrm.Requirment')
+data.setCell(1, 3, 15237);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'EmpLogin')
+data.setCell(2, 2, 'com.orangehrm.UserManagement')
+data.setCell(2, 3, 10919);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'AddLeaveEntitlewithoutchckbox')
+data.setCell(3, 2, 'com.orangehrm.LeaveEntitles')
+data.setCell(3, 3, 10840);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SearchLeave')
+data.setCell(4, 2, 'com.orangehrm.LeaveEntitles')
+data.setCell(4, 3, 10568);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginEmployee')
+data.setCell(5, 2, 'com.orangehrm.EmployeesList')
+data.setCell(5, 3, 10239);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'DeleteEmpList')
+data.setCell(6, 2, 'com.orangehrm.UserManagement')
+data.setCell(6, 3, 8489);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'viewemprecord')
+data.setCell(7, 2, 'com.orangehrm.Time')
+data.setCell(7, 3, 8369);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AddEmployee')
+data.setCell(8, 2, 'com.orangehrm.EmployeesList')
+data.setCell(8, 3, 7707);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addemployee')
+data.setCell(9, 2, 'com.orangehrm.ResetPassword')
+data.setCell(9, 3, 7278);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SearchEmployee')
+data.setCell(10, 2, 'com.orangehrm.EmployeesList')
+data.setCell(10, 3, 7222);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Addemployee')
+data.setCell(11, 2, 'com.orangehrm.UserManagement')
+data.setCell(11, 3, 6805);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addemprecord')
+data.setCell(12, 2, 'com.orangehrm.Time')
+data.setCell(12, 3, 6702);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'CancelUser')
+data.setCell(13, 2, 'com.orangehrm.UserManagement')
+data.setCell(13, 3, 6519);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addjobtitle')
+data.setCell(14, 2, 'com.orangehrm.JobTitles')
+data.setCell(14, 3, 6364);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'AddLeaveType')
+data.setCell(15, 2, 'com.orangehrm.LeaveEntitles')
+data.setCell(15, 3, 6321);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'AddEmployee')
+data.setCell(16, 2, 'com.orangehrm.LeaveEntitles')
+data.setCell(16, 3, 6255);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addperformance')
+data.setCell(17, 2, 'com.orangehrm.Performance')
+data.setCell(17, 3, 6201);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'AddEmployee')
+data.setCell(18, 2, 'com.orangehrm.Time')
+data.setCell(18, 3, 5941);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'DeleteEmployee')
+data.setCell(19, 2, 'com.orangehrm.EmployeesList')
+data.setCell(19, 3, 5540);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'DeleteEmpLogin')
+data.setCell(20, 2, 'com.orangehrm.UserManagement')
+data.setCell(20, 3, 5435);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'AddUser')
+data.setCell(21, 2, 'com.orangehrm.UserManagement')
+data.setCell(21, 3, 5390);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'DeleteEmpList')
+data.setCell(22, 2, 'com.orangehrm.ResetPassword')
+data.setCell(22, 3, 5373);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'DeleteEmpList')
+data.setCell(23, 2, 'com.orangehrm.LeaveEntitles')
+data.setCell(23, 3, 5344);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'DeleteEmpList')
+data.setCell(24, 2, 'com.orangehrm.Time')
+data.setCell(24, 3, 5176);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'AddUser')
+data.setCell(25, 2, 'com.orangehrm.ResetPassword')
+data.setCell(25, 3, 4904);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'deletecandidates')
+data.setCell(26, 2, 'com.orangehrm.Requirment')
+data.setCell(26, 3, 3842);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'viewcandidates')
+data.setCell(27, 2, 'com.orangehrm.Requirment')
+data.setCell(27, 3, 3517);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'editjobtitle')
+data.setCell(28, 2, 'com.orangehrm.JobTitles')
+data.setCell(28, 3, 3383);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'AddLeaveEntitle')
+data.setCell(29, 2, 'com.orangehrm.LeaveEntitles')
+data.setCell(29, 3, 2953);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'deletetimerecord')
+data.setCell(30, 2, 'com.orangehrm.Time')
+data.setCell(30, 3, 2899);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'deleteperformance')
+data.setCell(31, 2, 'com.orangehrm.Performance')
+data.setCell(31, 3, 2164);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'addjobtitlecancel')
+data.setCell(32, 2, 'com.orangehrm.JobTitles')
+data.setCell(32, 3, 2084);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'jobdelete')
+data.setCell(33, 2, 'com.orangehrm.JobTitles')
+data.setCell(33, 3, 2065);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'SearchEmployee')
+data.setCell(34, 2, 'com.orangehrm.UserManagement')
+data.setCell(34, 3, 1355);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'ResetSearch')
+data.setCell(35, 2, 'com.orangehrm.EmployeesList')
+data.setCell(35, 3, 1295);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'ResetSearch')
+data.setCell(36, 2, 'com.orangehrm.UserManagement')
+data.setCell(36, 3, 895);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">28 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.orangehrm.Requirment</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Loginbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Logoutbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Closebrowser</span>
+                <br/>
+                <span class="ignored-method-name">Openbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.orangehrm.Performance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Loginbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Logoutbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Closebrowser</span>
+                <br/>
+                <span class="ignored-method-name">Openbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.orangehrm.ResetPassword</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Loginbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Logoutbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Closebrowser</span>
+                <br/>
+                <span class="ignored-method-name">Openbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.orangehrm.JobTitles</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Loginbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Logoutbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Closebrowser</span>
+                <br/>
+                <span class="ignored-method-name">Openbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.orangehrm.EmployeesList</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Loginbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Logoutbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Closebrowser</span>
+                <br/>
+                <span class="ignored-method-name">Openbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.orangehrm.LeaveEntitles</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Loginbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Logoutbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Closebrowser</span>
+                <br/>
+                <span class="ignored-method-name">Openbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.orangehrm.Time</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Loginbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Logoutbrowser</span>
+                <br/>
+                <span class="ignored-method-name">Closebrowser</span>
+                <br/>
+                <span class="ignored-method-name">Openbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.UserManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Openbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">Loginbrowser</span>
+                <span class="method-start">6757 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Addemployee</span>
+                <span class="method-start">10056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddUser</span>
+                <span class="method-start">16867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CancelUser</span>
+                <span class="method-start">22259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EmpLogin</span>
+                <span class="method-start">28781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchEmployee</span>
+                <span class="method-start">39705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ResetSearch</span>
+                <span class="method-start">41062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteEmpLogin</span>
+                <span class="method-start">41959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteEmpList</span>
+                <span class="method-start">47396 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.JobTitles</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addjobtitle</span>
+                <span class="method-start">55890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addjobtitlecancel</span>
+                <span class="method-start">62255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editjobtitle</span>
+                <span class="method-start">64341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">jobdelete</span>
+                <span class="method-start">67726 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.EmployeesList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddEmployee</span>
+                <span class="method-start">69794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchEmployee</span>
+                <span class="method-start">77503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ResetSearch</span>
+                <span class="method-start">84727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginEmployee</span>
+                <span class="method-start">86024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteEmployee</span>
+                <span class="method-start">96265 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.LeaveEntitles</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddEmployee</span>
+                <span class="method-start">101807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddLeaveType</span>
+                <span class="method-start">108066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddLeaveEntitle</span>
+                <span class="method-start">114389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddLeaveEntitlewithoutchckbox</span>
+                <span class="method-start">117343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchLeave</span>
+                <span class="method-start">128185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteEmpList</span>
+                <span class="method-start">138755 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.Time</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddEmployee</span>
+                <span class="method-start">144101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewemprecord</span>
+                <span class="method-start">150044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addemprecord</span>
+                <span class="method-start">158414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletetimerecord</span>
+                <span class="method-start">165118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteEmpList</span>
+                <span class="method-start">168019 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.Requirment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addcandidates</span>
+                <span class="method-start">173196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewcandidates</span>
+                <span class="method-start">188434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletecandidates</span>
+                <span class="method-start">191953 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.Performance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addperformance</span>
+                <span class="method-start">195797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteperformance</span>
+                <span class="method-start">201999 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.ResetPassword</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addemployee</span>
+                <span class="method-start">204164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddUser</span>
+                <span class="method-start">211443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EmpResetPass</span>
+                <span class="method-start">216348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteEmpList</span>
+                <span class="method-start">236088 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.UserManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Logoutbrowser</span>
+                <span class="method-start">241462 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">Closebrowser</span>
+                <span class="method-start">243095 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
